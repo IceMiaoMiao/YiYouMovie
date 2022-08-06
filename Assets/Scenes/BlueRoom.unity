@@ -4775,6 +4775,8 @@ GameObject:
   - component: {fileID: 628282353}
   - component: {fileID: 628282352}
   - component: {fileID: 628282351}
+  - component: {fileID: 628282356}
+  - component: {fileID: 628282355}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -4809,7 +4811,7 @@ MonoBehaviour:
   selectedBlocks:
   - {fileID: 628282354}
   selectedCommands:
-  - {fileID: 628282351}
+  - {fileID: 628282355}
   variables: []
   description: 
   stepPause: 0
@@ -4934,7 +4936,63 @@ MonoBehaviour:
   commandList:
   - {fileID: 628282352}
   - {fileID: 628282351}
+  - {fileID: 628282356}
+  - {fileID: 628282355}
   suppressAllAutoSelections: 0
+--- !u!114 &628282355
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 628282346}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 4
+  indentLevel: 0
+  storyText: '{s}, {s=60} Writing speed (chars per sec){/s}'
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &628282356
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 628282346}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 3
+  indentLevel: 0
+  storyText: "{color=red} \u5F00\u76D2 {/color}"
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
 --- !u!1 &657025911
 GameObject:
   m_ObjectHideFlags: 0
@@ -13680,7 +13738,7 @@ RectTransform:
   m_GameObject: {fileID: 8112286819333498924}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 0.82974, z: 1}
+  m_LocalScale: {x: 1.6188, y: 1.3431832, z: 1.6188}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 8112286820431289975}
@@ -13734,11 +13792,11 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: 79197ecfbc3a4294a89ce589dac02cf2, type: 3}
-    m_FontSize: 45
+    m_FontSize: 90
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 4
-    m_MaxSize: 50
+    m_MaxSize: 90
     m_Alignment: 0
     m_AlignByGeometry: 0
     m_RichText: 1
@@ -13816,11 +13874,11 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: bb145366ce7024469a5758b08d31802c, type: 3}
-    m_FontSize: 50
+    m_FontSize: 100
     m_FontStyle: 0
     m_BestFit: 0
-    m_MinSize: 10
-    m_MaxSize: 50
+    m_MinSize: 1
+    m_MaxSize: 100
     m_Alignment: 3
     m_AlignByGeometry: 0
     m_RichText: 1
@@ -13863,7 +13921,7 @@ RectTransform:
   m_GameObject: {fileID: 8112286819555809570}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 0.55818, z: 1}
+  m_LocalScale: {x: 1.4266325, y: 0.79631776, z: 1.4266325}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 8112286820110018063}
@@ -13871,7 +13929,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 586.5, y: -43}
+  m_AnchoredPosition: {x: 785, y: -43}
   m_SizeDelta: {x: 1106, y: 71}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!225 &8112286820110018056
