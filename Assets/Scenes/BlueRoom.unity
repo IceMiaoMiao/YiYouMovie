@@ -2999,8 +2999,8 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 953276759}
-  - {fileID: 1144171852}
   - {fileID: 419588932}
+  - {fileID: 1144171852}
   m_Father: {fileID: 0}
   m_RootOrder: 15
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -5839,6 +5839,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 300038086}
     m_Modifications:
+    - target: {fileID: 923692191116069807, guid: 77da8005f7c89b34099b15b30ceeeaca, type: 3}
+      propertyPath: m_Convex
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4243104500430556095, guid: 77da8005f7c89b34099b15b30ceeeaca, type: 3}
       propertyPath: m_RootOrder
       value: 88
@@ -5868,22 +5872,6 @@ PrefabInstance:
       value: -8.431423
       objectReference: {fileID: 0}
     - target: {fileID: 4243104500430556095, guid: 77da8005f7c89b34099b15b30ceeeaca, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: -0.4698428
-      objectReference: {fileID: 0}
-    - target: {fileID: 4243104500430556095, guid: 77da8005f7c89b34099b15b30ceeeaca, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4243104500430556095, guid: 77da8005f7c89b34099b15b30ceeeaca, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0.8827501
-      objectReference: {fileID: 0}
-    - target: {fileID: 4243104500430556095, guid: 77da8005f7c89b34099b15b30ceeeaca, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4243104500430556095, guid: 77da8005f7c89b34099b15b30ceeeaca, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
       value: 0
       objectReference: {fileID: 0}
@@ -5903,13 +5891,72 @@ PrefabInstance:
       propertyPath: m_Name
       value: interior.090
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 5305415644623358859, guid: 77da8005f7c89b34099b15b30ceeeaca, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 77da8005f7c89b34099b15b30ceeeaca, type: 3}
 --- !u!4 &908549826 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4243104500430556095, guid: 77da8005f7c89b34099b15b30ceeeaca, type: 3}
   m_PrefabInstance: {fileID: 908549825}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &908549827 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8122684182310249111, guid: 77da8005f7c89b34099b15b30ceeeaca, type: 3}
+  m_PrefabInstance: {fileID: 908549825}
+  m_PrefabAsset: {fileID: 0}
+--- !u!137 &908549828
+SkinnedMeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 908549827}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 3
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 7adb1868ebffda54abd9b77142cd9247, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  serializedVersion: 2
+  m_Quality: 0
+  m_UpdateWhenOffscreen: 0
+  m_SkinnedMotionVectors: 1
+  m_Mesh: {fileID: -7290795218649532307, guid: 2a683be047429b14294b9bd38836859a, type: 3}
+  m_Bones: []
+  m_BlendShapeWeights: []
+  m_RootBone: {fileID: 0}
+  m_AABB:
+    m_Center: {x: 0.0000011622906, y: -0.16731484, z: -0.1370754}
+    m_Extent: {x: 0.51615703, y: 0.17241596, z: 0.4589329}
+  m_DirtyAABB: 0
 --- !u!1001 &924216289
 PrefabInstance:
   m_ObjectHideFlags: 0
