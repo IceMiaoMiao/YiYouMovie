@@ -2,14 +2,16 @@
 %TAG !u! tag:unity3d.com,2011:
 --- !u!21 &2100000
 Material:
-  serializedVersion: 6
+  serializedVersion: 8
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: MI_12_1
   m_Shader: {fileID: 4800000, guid: bcfecb6e67d04e146b8f26d5dde199a9, type: 3}
-  m_ShaderKeywords: _COLORTEX_ON
+  m_ValidKeywords:
+  - _COLORTEX_ON
+  m_InvalidKeywords: []
   m_LightmapFlags: 0
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
@@ -35,14 +37,25 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _vmghdejo_2K_Displacement:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
     m_Floats:
     - _30: 0
+    - _Add: 0
     - _ColorTex: 1
+    - _Curtain: 0
     - _Emission: 0
     - _Float0: 0.4
+    - _Float3: 1
     - _LayerNumber: 2.69
-    - _LayerOffest: 2.72
+    - _LayerOffest: 1.24
+    - _Mul: 0
     - _Normal: 0
+    - _Power: 0
     - __dirty: 0
     m_Colors:
     - _Base_Color: {r: 0.4009434, g: 1, b: 0.9149761, a: 0}
+  m_BuildTextureStacks: []
